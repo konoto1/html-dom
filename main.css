@@ -1,0 +1,60 @@
+body,
+body * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    padding: 2rem;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+ul,
+ol {
+    margin: 2rem 0;
+    font-size: 1.3rem;
+}
+
+.product-list {
+    border: 0.1rem solid #ccc;
+    border-radius: 1rem;
+    list-style: none;
+}
+
+.product-list > li {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.product-list > li +li {
+    border-top: 0.1rem solid #ccc;
+}
+
+.product-list> .title {
+    font-weight: bold;
+}
+
+.product-list> .count {
+    padding: 0.5rem 1rem;
+    background-color: #ccc;
+}
+
+td {
+    padding: 1rem 2rem;
+    border: 1px solid #ccc;
+}
