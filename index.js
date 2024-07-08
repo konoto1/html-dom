@@ -6,7 +6,7 @@ export const headerData = [
     },
     {
         text: 'About',
-        link: '../about-us/',
+        link: '../about/',
     },
     {
         text: 'Products',
