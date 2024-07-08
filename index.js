@@ -20,6 +20,10 @@ export const headerData = [
         text: 'Sport',
         link: '../sportas/',
     },
+    {
+        text: 'Cars',
+        link: '../cars/',
+    },
 ];
 
 

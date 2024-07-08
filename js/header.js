@@ -5,7 +5,7 @@ export function header() {
     const titleDOM = document.getElementsByTagName('title');
     let headerHTML = ``;
     for (const data of headerData) {
-        if (!titleDOM[0].innerText.toUpperCase().includes('HOME')) {
+        if (titleDOM[0].innerText !== 'Home') {
             headerHTML += `<a class="link" href="${data.link}">${data.text}</a>`;
         } else {
             headerHTML += `<a class="link" href="${data.link.replace('..', '.')}">${data.text}</a>`
